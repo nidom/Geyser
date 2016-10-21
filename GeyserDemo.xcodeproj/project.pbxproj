@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F14CCCF2B0354DD1A2E9DB /* libPods-GeyserDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D9D9EAF83336040FFE4F4C /* libPods-GeyserDemo.a */; };
+		C7E9E13F1DB9FE4600E438D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E13E1DB9FE4600E438D2 /* main.m */; };
+		C7E9E1421DB9FE4600E438D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E1411DB9FE4600E438D2 /* AppDelegate.m */; };
+		C7E9E1451DB9FE4600E438D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E1441DB9FE4600E438D2 /* ViewController.m */; };
+		C7E9E1481DB9FE4600E438D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E9E1461DB9FE4600E438D2 /* Main.storyboard */; };
+		C7E9E14A1DB9FE4600E438D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E9E1491DB9FE4600E438D2 /* Assets.xcassets */; };
+		C7E9E14D1DB9FE4600E438D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E9E14B1DB9FE4600E438D2 /* LaunchScreen.storyboard */; };
+		C7E9E1691DB9FEE400E438D2 /* GESBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E1561DB9FEE400E438D2 /* GESBaseRequest.m */; };
+		C7E9E16A1DB9FEE400E438D2 /* GESRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E1581DB9FEE400E438D2 /* GESRequest.m */; };
+		C7E9E16B1DB9FEE400E438D2 /* GESChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E15A1DB9FEE400E438D2 /* GESChainRequest.m */; };
+		C7E9E16C1DB9FEE400E438D2 /* GESBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E15C1DB9FEE400E438D2 /* GESBatchRequest.m */; };
+		C7E9E16D1DB9FEE400E438D2 /* GESBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E15E1DB9FEE400E438D2 /* GESBatchRequestAgent.m */; };
+		C7E9E16E1DB9FEE400E438D2 /* GESChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E1601DB9FEE400E438D2 /* GESChainRequestAgent.m */; };
+		C7E9E16F1DB9FEE400E438D2 /* GESNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E1621DB9FEE400E438D2 /* GESNetworkAgent.m */; };
+		C7E9E1701DB9FEE400E438D2 /* GESNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E1641DB9FEE400E438D2 /* GESNetworkConfig.m */; };
+		C7E9E1711DB9FEE400E438D2 /* GESNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E1661DB9FEE400E438D2 /* GESNetworkPrivate.m */; };
+		C7E9E1721DB9FEE400E438D2 /* GESOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9E1681DB9FEE400E438D2 /* GESOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15D9D9EAF83336040FFE4F4C /* libPods-GeyserDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeyserDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73FC171A249D9DD65D9921A6 /* Pods-GeyserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeyserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeyserDemo/Pods-GeyserDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C7E9E13A1DB9FE4600E438D2 /* GeyserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeyserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E9E13E1DB9FE4600E438D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7E9E1401DB9FE4600E438D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7E9E1411DB9FE4600E438D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7E9E1431DB9FE4600E438D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7E9E1441DB9FE4600E438D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7E9E1471DB9FE4600E438D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7E9E1491DB9FE4600E438D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7E9E14C1DB9FE4600E438D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7E9E14E1DB9FE4600E438D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E9E1551DB9FEE400E438D2 /* GESBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESBaseRequest.h; sourceTree = "<group>"; };
+		C7E9E1561DB9FEE400E438D2 /* GESBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESBaseRequest.m; sourceTree = "<group>"; };
+		C7E9E1571DB9FEE400E438D2 /* GESRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESRequest.h; sourceTree = "<group>"; };
+		C7E9E1581DB9FEE400E438D2 /* GESRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESRequest.m; sourceTree = "<group>"; };
+		C7E9E1591DB9FEE400E438D2 /* GESChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESChainRequest.h; sourceTree = "<group>"; };
+		C7E9E15A1DB9FEE400E438D2 /* GESChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESChainRequest.m; sourceTree = "<group>"; };
+		C7E9E15B1DB9FEE400E438D2 /* GESBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESBatchRequest.h; sourceTree = "<group>"; };
+		C7E9E15C1DB9FEE400E438D2 /* GESBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESBatchRequest.m; sourceTree = "<group>"; };
+		C7E9E15D1DB9FEE400E438D2 /* GESBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESBatchRequestAgent.h; sourceTree = "<group>"; };
+		C7E9E15E1DB9FEE400E438D2 /* GESBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESBatchRequestAgent.m; sourceTree = "<group>"; };
+		C7E9E15F1DB9FEE400E438D2 /* GESChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESChainRequestAgent.h; sourceTree = "<group>"; };
+		C7E9E1601DB9FEE400E438D2 /* GESChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESChainRequestAgent.m; sourceTree = "<group>"; };
+		C7E9E1611DB9FEE400E438D2 /* GESNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESNetworkAgent.h; sourceTree = "<group>"; };
+		C7E9E1621DB9FEE400E438D2 /* GESNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESNetworkAgent.m; sourceTree = "<group>"; };
+		C7E9E1631DB9FEE400E438D2 /* GESNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESNetworkConfig.h; sourceTree = "<group>"; };
+		C7E9E1641DB9FEE400E438D2 /* GESNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESNetworkConfig.m; sourceTree = "<group>"; };
+		C7E9E1651DB9FEE400E438D2 /* GESNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESNetworkPrivate.h; sourceTree = "<group>"; };
+		C7E9E1661DB9FEE400E438D2 /* GESNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESNetworkPrivate.m; sourceTree = "<group>"; };
+		C7E9E1671DB9FEE400E438D2 /* GESOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GESOperation.h; sourceTree = "<group>"; };
+		C7E9E1681DB9FEE400E438D2 /* GESOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GESOperation.m; sourceTree = "<group>"; };
+		E688C5ACDB3BC52F36FBA52E /* Pods-GeyserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeyserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeyserDemo/Pods-GeyserDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7E9E1371DB9FE4600E438D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F14CCCF2B0354DD1A2E9DB /* libPods-GeyserDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		369971962E56B1D46A25B7FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E688C5ACDB3BC52F36FBA52E /* Pods-GeyserDemo.debug.xcconfig */,
+				73FC171A249D9DD65D9921A6 /* Pods-GeyserDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3BDD6135C65DE88C2AF5E7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15D9D9EAF83336040FFE4F4C /* libPods-GeyserDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7E9E1311DB9FE4600E438D2 = {
+			isa = PBXGroup;
+			children = (
+				C7E9E1541DB9FEC400E438D2 /* Geyser */,
+				C7E9E13C1DB9FE4600E438D2 /* GeyserDemo */,
+				C7E9E13B1DB9FE4600E438D2 /* Products */,
+				369971962E56B1D46A25B7FA /* Pods */,
+				B3BDD6135C65DE88C2AF5E7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7E9E13B1DB9FE4600E438D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7E9E13A1DB9FE4600E438D2 /* GeyserDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7E9E13C1DB9FE4600E438D2 /* GeyserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C7E9E1401DB9FE4600E438D2 /* AppDelegate.h */,
+				C7E9E1411DB9FE4600E438D2 /* AppDelegate.m */,
+				C7E9E1431DB9FE4600E438D2 /* ViewController.h */,
+				C7E9E1441DB9FE4600E438D2 /* ViewController.m */,
+				C7E9E1461DB9FE4600E438D2 /* Main.storyboard */,
+				C7E9E1491DB9FE4600E438D2 /* Assets.xcassets */,
+				C7E9E14B1DB9FE4600E438D2 /* LaunchScreen.storyboard */,
+				C7E9E14E1DB9FE4600E438D2 /* Info.plist */,
+				C7E9E13D1DB9FE4600E438D2 /* Supporting Files */,
+			);
+			path = GeyserDemo;
+			sourceTree = "<group>";
+		};
+		C7E9E13D1DB9FE4600E438D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7E9E13E1DB9FE4600E438D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7E9E1541DB9FEC400E438D2 /* Geyser */ = {
+			isa = PBXGroup;
+			children = (
+				C7E9E1551DB9FEE400E438D2 /* GESBaseRequest.h */,
+				C7E9E1561DB9FEE400E438D2 /* GESBaseRequest.m */,
+				C7E9E1571DB9FEE400E438D2 /* GESRequest.h */,
+				C7E9E1581DB9FEE400E438D2 /* GESRequest.m */,
+				C7E9E1591DB9FEE400E438D2 /* GESChainRequest.h */,
+				C7E9E15A1DB9FEE400E438D2 /* GESChainRequest.m */,
+				C7E9E15B1DB9FEE400E438D2 /* GESBatchRequest.h */,
+				C7E9E15C1DB9FEE400E438D2 /* GESBatchRequest.m */,
+				C7E9E15D1DB9FEE400E438D2 /* GESBatchRequestAgent.h */,
+				C7E9E15E1DB9FEE400E438D2 /* GESBatchRequestAgent.m */,
+				C7E9E15F1DB9FEE400E438D2 /* GESChainRequestAgent.h */,
+				C7E9E1601DB9FEE400E438D2 /* GESChainRequestAgent.m */,
+				C7E9E1611DB9FEE400E438D2 /* GESNetworkAgent.h */,
+				C7E9E1621DB9FEE400E438D2 /* GESNetworkAgent.m */,
+				C7E9E1631DB9FEE400E438D2 /* GESNetworkConfig.h */,
+				C7E9E1641DB9FEE400E438D2 /* GESNetworkConfig.m */,
+				C7E9E1651DB9FEE400E438D2 /* GESNetworkPrivate.h */,
+				C7E9E1661DB9FEE400E438D2 /* GESNetworkPrivate.m */,
+				C7E9E1671DB9FEE400E438D2 /* GESOperation.h */,
+				C7E9E1681DB9FEE400E438D2 /* GESOperation.m */,
+			);
+			path = Geyser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7E9E1391DB9FE4600E438D2 /* GeyserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E9E1511DB9FE4600E438D2 /* Build configuration list for PBXNativeTarget "GeyserDemo" */;
+			buildPhases = (
+				C7918CDAAF8732A22A5B3FAA /* [CP] Check Pods Manifest.lock */,
+				C7E9E1361DB9FE4600E438D2 /* Sources */,
+				C7E9E1371DB9FE4600E438D2 /* Frameworks */,
+				C7E9E1381DB9FE4600E438D2 /* Resources */,
+				26D18D293919AC714513DD4A /* [CP] Embed Pods Frameworks */,
+				4B1086E2A0045684BF08ED6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeyserDemo;
+			productName = GeyserDemo;
+			productReference = C7E9E13A1DB9FE4600E438D2 /* GeyserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7E9E1321DB9FE4600E438D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = nidom;
+				TargetAttributes = {
+					C7E9E1391DB9FE4600E438D2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B24DK9L49R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C7E9E1351DB9FE4600E438D2 /* Build configuration list for PBXProject "GeyserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7E9E1311DB9FE4600E438D2;
+			productRefGroup = C7E9E13B1DB9FE4600E438D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7E9E1391DB9FE4600E438D2 /* GeyserDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7E9E1381DB9FE4600E438D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E9E14D1DB9FE4600E438D2 /* LaunchScreen.storyboard in Resources */,
+				C7E9E14A1DB9FE4600E438D2 /* Assets.xcassets in Resources */,
+				C7E9E1481DB9FE4600E438D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26D18D293919AC714513DD4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeyserDemo/Pods-GeyserDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B1086E2A0045684BF08ED6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeyserDemo/Pods-GeyserDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7918CDAAF8732A22A5B3FAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7E9E1361DB9FE4600E438D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E9E1451DB9FE4600E438D2 /* ViewController.m in Sources */,
+				C7E9E16B1DB9FEE400E438D2 /* GESChainRequest.m in Sources */,
+				C7E9E1711DB9FEE400E438D2 /* GESNetworkPrivate.m in Sources */,
+				C7E9E16D1DB9FEE400E438D2 /* GESBatchRequestAgent.m in Sources */,
+				C7E9E1421DB9FE4600E438D2 /* AppDelegate.m in Sources */,
+				C7E9E16C1DB9FEE400E438D2 /* GESBatchRequest.m in Sources */,
+				C7E9E1721DB9FEE400E438D2 /* GESOperation.m in Sources */,
+				C7E9E1691DB9FEE400E438D2 /* GESBaseRequest.m in Sources */,
+				C7E9E1701DB9FEE400E438D2 /* GESNetworkConfig.m in Sources */,
+				C7E9E16A1DB9FEE400E438D2 /* GESRequest.m in Sources */,
+				C7E9E16E1DB9FEE400E438D2 /* GESChainRequestAgent.m in Sources */,
+				C7E9E16F1DB9FEE400E438D2 /* GESNetworkAgent.m in Sources */,
+				C7E9E13F1DB9FE4600E438D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7E9E1461DB9FE4600E438D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7E9E1471DB9FE4600E438D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7E9E14B1DB9FE4600E438D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7E9E14C1DB9FE4600E438D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7E9E14F1DB9FE4600E438D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7E9E1501DB9FE4600E438D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7E9E1521DB9FE4600E438D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E688C5ACDB3BC52F36FBA52E /* Pods-GeyserDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B24DK9L49R;
+				INFOPLIST_FILE = GeyserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nidom.GeyserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7E9E1531DB9FE4600E438D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FC171A249D9DD65D9921A6 /* Pods-GeyserDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B24DK9L49R;
+				INFOPLIST_FILE = GeyserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nidom.GeyserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7E9E1351DB9FE4600E438D2 /* Build configuration list for PBXProject "GeyserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E9E14F1DB9FE4600E438D2 /* Debug */,
+				C7E9E1501DB9FE4600E438D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E9E1511DB9FE4600E438D2 /* Build configuration list for PBXNativeTarget "GeyserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E9E1521DB9FE4600E438D2 /* Debug */,
+				C7E9E1531DB9FE4600E438D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7E9E1321DB9FE4600E438D2 /* Project object */;
+}
